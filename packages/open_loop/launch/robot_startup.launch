@@ -1,7 +1,9 @@
 <launch>
+    <!--
     <include file="$(find anti_instagram)/launch/anti_instagram_node.launch">
         <arg name="veh" value="$(env VEHICLE_NAME)"/>
     </include>
+    -->
     <include file="$(find line_detector)/launch/line_detector_node.launch">
         <arg name="veh" value="$(env VEHICLE_NAME)"/>
     </include>
@@ -20,3 +22,4 @@
         <arg name="param_file_name" value="lane_following"/>
     </include>
 </launch>
+
